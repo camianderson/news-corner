@@ -10,7 +10,7 @@ const NewsList = ({newsData, activate}) => {
         return (
             <Link to={`/article/${news.title}`} key={news.created_date} onClick={()=> activate()}>
                 <section className="news_section">
-                    <img src={news.multimedia[1].url} className='news_section-img'/>
+                    <img src={news.multimedia[1].url} className='news_section-img' alt={news.multimedia[1].caption}/>
                     <h2>{news.title}</h2>
                 </section>
             </Link>

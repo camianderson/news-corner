@@ -10,7 +10,7 @@ const Article = ({news, activate}) => {
 
     return (
         <div className="article">
-            <img src={news.multimedia[1].url} className='news_section-img'/>
+            <img src={news.multimedia[1].url} className='news_section-img' alt={news.multimedia[1].caption}/>
             <h2>{news.title}</h2>
             <p className='desc-by'>{news.byline}</p>
             <p className='desc-by'>{correctDate}</p>
