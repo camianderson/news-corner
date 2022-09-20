@@ -18,7 +18,7 @@ const Article = ({news, activate}) => {
             </div>
             <p className='article-topic'>Topic related to {`${news.des_facet.join(', ')}.`}</p>
             <p className='article-desc'>{news.abstract}</p>
-            <a href={news.url}>Read the full article here</a>
+            <a className='article-url' href={news.url}>Read the full article here</a>
             <Link className="article__link" to="/">
                 <button className="article__button" onClick={() => activate()}>Back</button>
             </Link>

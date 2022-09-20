@@ -34,10 +34,10 @@
     font-weight: bold;
 }
 
-a {
+.article-url {
     color: rgb(70, 69, 69)
 }
 
-a:hover {
+.article-url:hover {
     color: rgb(173, 163, 180);
 }

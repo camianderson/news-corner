@@ -18,6 +18,9 @@
     color: black;
 }
 
+.news_shadow:hover {
+    box-shadow: 10px 10px 8px 10px #888888;
+}
 .news_section-img {
     height: 200px;
     width: 290px;
