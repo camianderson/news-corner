@@ -1,0 +1,14 @@
+.news {
+    width: 90%;
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.news_section {
+    width: 80%
+}
+
+.news_section-img {
+    height: 250px;
+    width: 380px;
+}
