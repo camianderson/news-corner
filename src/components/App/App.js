@@ -11,6 +11,7 @@ const App = () => {
 
   const handleChange = event => {
     getNewsData(event.target.value)
+    console.log(newsData)
   }
 
   const getNewsData = (value) => {
@@ -18,7 +19,7 @@ const App = () => {
     .then(data => setNewsData(data.results))
   }
 
-  useEffect((value) => {
+  useEffect(() => {
       getNewsData('us');
   }, [])
 
@@ -45,7 +46,6 @@ const App = () => {
       <Switch>
         <Route exact path='/' render={() => <NewsList newsData={newsData}/>} />
         <Route path='/article/:title' render={({ match }) => {
-          console.log(match)
               const selectedNews = newsData.find(
                 (news) => news.title === match.params.title
               );
