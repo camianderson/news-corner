@@ -40,8 +40,8 @@ const App = () => {
         </Link>
         {!topicSelected && 
         <div className="home">
-          <label>Select a topic &nbsp;
-            <select name='topics' onChange={handleChange}>
+          <label className='home-topics-label'>Select a topic &nbsp;
+            <select name='topics' onChange={handleChange} className='home-dropdown'>
                 <option value="us">U.S.</option>
                 <option value="world">World</option>
                 <option value="arts">Arts</option>
