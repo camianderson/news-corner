@@ -19,3 +19,25 @@
     height: 100%;
     width: 100%;
 }
+
+.article-author {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+.article-topic {
+    font-size: 13px;
+}
+
+.article-desc {
+    font-weight: bold;
+}
+
+a {
+    color: rgb(70, 69, 69)
+}
+
+a:hover {
+    color: rgb(173, 163, 180);
+}

@@ -12,11 +12,13 @@ const Article = ({news, activate}) => {
         <div className="article">
             <img src={news.multimedia[1].url} className='news_section-img' alt={news.multimedia[1].caption}/>
             <h2>{news.title}</h2>
-            <p className='desc-by'>{news.byline}</p>
-            <p className='desc-by'>{correctDate}</p>
-            <p className='desc'>{news.abstract}</p>
-            <a href={news.url}>Read the full article</a>
-            <p className='desc'>Topic related to {`${news.des_facet.join(', ')}.`}</p>
+            <div className='article-author'>
+                <p>{news.byline}</p>
+                <p>{correctDate}</p>
+            </div>
+            <p className='article-topic'>Topic related to {`${news.des_facet.join(', ')}.`}</p>
+            <p className='article-desc'>{news.abstract}</p>
+            <a href={news.url}>Read the full article here</a>
             <Link className="article__link" to="/">
                 <button className="article__button" onClick={() => activate()}>Back</button>
             </Link>
