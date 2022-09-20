@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useLocation, Link } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Article.css';
 
 
 const Article = ({news, activate}) => {
@@ -11,11 +12,11 @@ const Article = ({news, activate}) => {
         <div className="article">
             <img src={news.multimedia[1].url} className='news_section-img'/>
             <h2>{news.title}</h2>
-            <p>{news.byline}</p>
-            <p>{correctDate}</p>
-            <p>{news.abstract}</p>
+            <p className='desc-by'>{news.byline}</p>
+            <p className='desc-by'>{correctDate}</p>
+            <p className='desc'>{news.abstract}</p>
             <a href={news.url}>Read the full article</a>
-            <p>Topic related to {`${news.des_facet.join(', ')}.`}</p>
+            <p className='desc'>Topic related to {`${news.des_facet.join(', ')}.`}</p>
             <Link className="article__link" to="/">
                 <button className="article__button" onClick={() => activate()}>Back</button>
             </Link>

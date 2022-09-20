@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 .App {
   height: 100%;
   width: 100vw;
@@ -6,8 +8,24 @@
   justify-content: center;
   align-content: center;
   align-items: center;
+  background-color: rgb(252, 249, 246);
+  font-family: 'Raleway', sans-serif;
+}
+
+span {
+  width: 1500px;
+  height: 1px;
+  border-top: 1px solid black;
 }
 
 .App-header {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-family:'Twinkle Star', cursive;
+  font-size: 40px;
+  width: 500px;
+  border-bottom: 1px solid black;
 }

@@ -1,0 +1,31 @@
+.article {
+    text-align: center;
+    padding: 0 20px 0 20px;
+    height: 100%;
+    width: 60vw;
+}
+
+.article__button {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(173, 163, 180);
+    border: transparent;
+    height: 20px;
+    width: 50px;
+}
+
+.news_section-img {
+    height: 40vh;
+    width: auto;
+}
+
+.desc, a {
+    font-size: 16px;
+    margin: .5px;
+    margin-bottom: 5px;
+}
+
+.desc-by {
+    font-size: 11px;
+    margin: 0px;
+}

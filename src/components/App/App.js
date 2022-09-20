@@ -36,24 +36,24 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <Link to='/'>
-          <h1> News Corner </h1>
+          <h1 className='title'> News Corner </h1>
         </Link>
         {!topicSelected && 
         <div className="home">
-          <p>Select a topic</p>
-          <select name='topics' onChange={handleChange}>
-              <option value="us">U.S.</option>
-              <option value="world">World</option>
-              <option value="arts">Arts</option>
-              <option value="automobiles">Automobiles</option>
-              <option value="business">Business</option>
-              <option value="fashion">Fashion</option>
-              <option value="health">Health</option>
-              <option value="science">Science</option>
-              <option value="sports">Sports</option>
-              <option value="technology">Technology</option>
-              <option value="travel">Travel</option>
-          </select>
+          <label>Select a topic &nbsp;
+            <select name='topics' onChange={handleChange}>
+                <option value="us">U.S.</option>
+                <option value="world">World</option>
+                <option value="arts">Arts</option>
+                <option value="business">Business</option>
+                <option value="fashion">Fashion</option>
+                <option value="health">Health</option>
+                <option value="science">Science</option>
+                <option value="sports">Sports</option>
+                <option value="technology">Technology</option>
+                <option value="travel">Travel</option>
+            </select>
+          </label>
         </div>}
       </header>
       <Switch>

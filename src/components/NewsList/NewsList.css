@@ -1,9 +1,11 @@
 .news {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     grid-gap: 35px;
+    background-color: rgb(252, 249, 246);
+    margin: 0 80px 0 80px;
 }
 
 .news_section, a {
