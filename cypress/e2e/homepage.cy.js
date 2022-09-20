@@ -32,5 +32,4 @@ describe('homepage flow', () => {
     cy.get('.news_section').eq(0).click()
     cy.url().should("eq", "http://localhost:3000/article/A%20Finnish%20Scholar%20Wants%20to%20Change%20How%20We%20See%20American%20History");
   })
-  
 })

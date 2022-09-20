@@ -57,7 +57,7 @@ const App = () => {
         </div>}
       </header>
       <Switch>
-        <Route exact path='/' render={() => <NewsList newsData={newsData} activate={activateTopicSearch}/>} />
+        <Route exact path='/' render={() => newsData.length ? (<NewsList newsData={newsData} activate={activateTopicSearch}/>) : (<h3>Loading...</h3>)} />
         <Route path='/article/:title' render={({ match }) => {
               const selectedNews = newsData.find(
                 (news) => news.title === match.params.title
