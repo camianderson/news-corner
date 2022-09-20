@@ -35,7 +35,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <Link to='/'>
+        <Link to='/' onClick={() => activateTopicSearch()}>
           <h1 className='title'> News Corner </h1>
         </Link>
         {!topicSelected && 
