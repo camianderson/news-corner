@@ -3,6 +3,7 @@ import NewsList from '../NewsList/NewsList';
 import Article from '../Article/Article';
 import { getNews } from '../../APIcalls'
 import { useEffect, useState } from 'react';
+import { Route } from 'react-router-dom';
 
 const App = () => {
 
@@ -21,10 +22,9 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <h1> News Feed </h1>
-
       </header>
-      <NewsList newsData={newsData}/>
-      <Article />
+      <Route exact path='/' render={() => <NewsList newsData={newsData}/>} />
+      <Route exact path='/Article' render={() => <Article />}/>
     </div>
   );
 }

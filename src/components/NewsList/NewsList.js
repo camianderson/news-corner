@@ -2,7 +2,6 @@ import React from "react";
 import './NewsList.css';
 
 const NewsList = ({newsData}) => {
-    console.log(newsData)
     const news = newsData.map((news)=> {
         if(news.title === ''|| news.title === 'Sign Up for the Science Times Newsletter') {
             return null
