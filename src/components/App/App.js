@@ -1,7 +1,6 @@
 import './App.css';
 import NewsList from '../NewsList/NewsList';
 import Article from '../Article/Article';
-// import Home from '../Home/Home'
 import { getNews } from '../../APIcalls'
 import { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
@@ -44,8 +43,18 @@ const App = () => {
         </div>
       </header>
       <Switch>
-        <Route path='/' render={() => <NewsList newsData={newsData}/>} />
-        <Route path='/article' component={Article} />
+        <Route exact path='/' render={() => <NewsList newsData={newsData}/>} />
+        <Route path='/article/:title' render={({ match }) => {
+          console.log(match)
+              const selectedNews = newsData.find(
+                (news) => news.title === match.params.title
+              );
+              return (
+                <Article
+                  news={selectedNews}
+                />
+              );
+            }} />
       </Switch>
     </div>
   );
