@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# News Corner
+### A minimalist news reader app of the top news from the New York Times. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Table of Contents
+- [Project Specs](#project-specs)
+- [Illustrations](#illustrations)
+- [Setup](#setup)
+- [Project Management](#project-management)
+- [Future Features](#future-features)
+- [Contributors](#contributors)
+- [Technologies](#technologies)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project Specs
 
-### `npm start`
+For this solo challenge the goal was to create a React application that allows users to see a list of articles and a “detailed” view for each article in 8 hours. The goal of this [project](https://mod4.turing.edu/projects/take_home/take_home_fe) was to demonstrate the understanding of:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React fundamentals
+- Create multi page UX using React Router
+- Frontend best practices
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Illustrations
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+- In your terminal, clone the repo
+- `https://github.com/camianderson/news-corner`
+- Make a new directory and cd into it
+- Install NPM packages
+- `npm install`
+- Do NOT run `npm audit fix --force`
+- Then type `npm start` . This runs the app in the development mode.
+- Open http://localhost:3000 to view it in your browser.
+- Enjoy using News Corner!
+- NOTE: Make sure that you type Control + C in your terminal when you are done using the application. This ensure the server will stop running before your close your Terminal.
+- Start the server to see the local site `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Make sure to check out NY Times API [here](https://mod4.turing.edu/projects/take_home/take_home_fe#:~:text=New%20York%20Times%20API%20Top%20Stories%20API)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Management
 
-### `npm run eject`
+- I used Notion to collect all the information during this project (Wireframe, Actions, Challenges). Check it out [here](https://obtainable-avenue-2f2.notion.site/Take-home-challenge-16495d275528438e979362e87ed4af96)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Future Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Create error handling in case there is no news related to the topic
+- Create favorites component and logic
+- Create a serch bar so users can search for specific news
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Cami Anderson](https://github.com/camianderson)
 
-## Learn More
+## Technologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- React Router
+- Cypress
+- ES6 Javascript
+- CSS
+- Semantic HTML
+- Fetch API
+- Hooks
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**[Back to top](#table-of-contents)**
