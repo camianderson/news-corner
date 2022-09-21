@@ -28,3 +28,9 @@ h2:hover {
     height: 200px;
     width: 290px;
 }
+
+@media only screen and (max-width: 550px) {
+    .news {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
