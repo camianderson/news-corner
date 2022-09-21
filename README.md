@@ -7,13 +7,13 @@
 - [Setup](#setup)
 - [Project Management](#project-management)
 - [Future Features](#future-features)
-- [Contributors](#contributors)
+- [Contributor](#contributors)
 - [Technologies](#technologies)
 
 
 ## Project Specs
 
-For this solo challenge the goal was to create a React application that allows users to see a list of articles and a “detailed” view for each article in 8 hours. The goal of this [project](https://mod4.turing.edu/projects/take_home/take_home_fe) was to demonstrate the understanding of:
+For this solo challenge I had to create a React application that allows users to see a list of articles and a “detailed” view for each article in 8 hours. The goal of this [project](https://mod4.turing.edu/projects/take_home/take_home_fe) was to demonstrate the understanding of:
 
 - React fundamentals
 - Create multi page UX using React Router
@@ -21,6 +21,7 @@ For this solo challenge the goal was to create a React application that allows u
 
 ## Illustrations
 
+https://user-images.githubusercontent.com/98124157/191585485-ed6b0784-89c4-4638-ba3e-eda8df9a2551.mp4
 
 ## Setup
 
