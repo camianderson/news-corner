@@ -24,6 +24,7 @@
 }
 
 .article-author {
+    width: 90vw;
     display: flex;
     justify-content: space-evenly;
     font-size: 12px;
