@@ -12,7 +12,6 @@ const App = () => {
 
   const handleChange = event => {
     getNewsData(event.target.value)
-    console.log(newsData)
   }
 
   const getNewsData = (value) => {
